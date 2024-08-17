@@ -1,6 +1,4 @@
 {
-    "project_name": "DX project template",
-    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
-    "project_short_description": "Descrição pequena do projeto",
-    "authors":["_","A", "B", "C", "D"]
+    "project_name": "project",
+    "__project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}"
 }
